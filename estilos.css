@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poopins, sans-serif;
+    color: #1E1E2A;
+}
+
+.header-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url('./img/foto04.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+} 
+.social-media{
+    margin-top: 1rem;
+    display: flex;
+}
+.social-media a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a:hover{
+    background-color: blanchedalmond;
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+   z-index: 9999;
+   transition: 400ms ease-in-out 8s; 
+}
+
+.nome{
+    height: 10vh;
+    position: absolute;
+    left: 300px;
+}
+
+/*cards*/
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card1{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    background-image: url("./img/html.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card2{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    background-image: url("./img/css.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card3{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    background-image: url("./img/JavaScript.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card4{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    background-image: url("./img/c++.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card5{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    background-image: url("./img/python.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.card-text{
+    width: 40%;
+    letter-spacing: 1px;
+}
